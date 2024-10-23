@@ -30,13 +30,14 @@ demo_MIMO_Q_learning_final.py
 ```
 demo_MIMO_compare_pi_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Compare_pi_MIMO_final.jpg)
+![image](https://github.com/CrazyThomasLiu/qoc_for_time_varying_batch_systems/blob/master/Compare_pi_MIMO_final.jpg)
+
 
 * Run the following command to compare the control performance between the initial control policy and the Q-learning-based optimal control policy.
 ```
 demo_MIMO_test_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learning_MIMO_output_final.jpg)
+![image](https://github.com/CrazyThomasLiu/qoc_for_time_varying_batch_systems/blob/master/Q_learning_MIMO_output_final.jpg)
 
 
 
@@ -55,12 +56,12 @@ demo_injection_molding_Q_learning_final.py
 ```
 demo_injection_molding_sample_3D_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/sample_data_3D_injection_molding_final.jpg)
+![image](https://github.com/CrazyThomasLiu/qoc_for_time_varying_batch_systems/blob/master/sample_data_3D_injection_molding_final.jpg)
 
 * Run the following command to compare the control performance between the initial control policy and the Q-learning-based optimal control policy.
 ```
 demo_injection_molding_test_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learning_injection_molding_final.jpg)
+![image](https://github.com/CrazyThomasLiu/qoc_for_time_varying_batch_systems/blob/master/Q_learning_injection_molding_final.jpg)
 
 
