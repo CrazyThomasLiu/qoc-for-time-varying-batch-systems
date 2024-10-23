@@ -1,1 +1,12 @@
 *.pdf
+demo_injection_molding_compare_pi.py
+demo_injection_molding_mbocs.py
+demo_injection_molding_Q_learning.py
+demo_injection_molding_sample_3D.py
+demo_injection_molding_test.py
+demo_MIMO_compare_pi.py
+demo_MIMO_mbocs.py
+demo_MIMO_Q_learning.py
+demo_MIMO_sample_3D.py
+demo_MIMO_sample_RMSE.py
+demo_MIMO_test.py
