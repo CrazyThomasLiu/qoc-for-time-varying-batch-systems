@@ -56,6 +56,7 @@ plt.xlim((0,25))
 
 
 if save_figure==True:
-    plt.savefig('sample_RMSE_MIMO_final.pdf')
+    #plt.savefig('sample_RMSE_MIMO_final.pdf')
+    plt.savefig('sample_RMSE_MIMO_final.jpg',dpi=800)
 plt.show()
 

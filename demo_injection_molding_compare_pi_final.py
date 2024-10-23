@@ -48,5 +48,6 @@ plt.xlabel(xlable,font2 )
 plt.ylabel(ylable,font2 )
 plt.tick_params(labelsize=12)
 if save_figure==True:
-    plt.savefig('Compare_pi_injection_molding_final.pdf')
+    #plt.savefig('Compare_pi_injection_molding_final.pdf')
+    plt.savefig('Compare_pi_injection_molding_final.jpg',dpi=800)
 plt.show()

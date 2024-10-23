@@ -57,6 +57,7 @@ ax.view_init(40, -19)
 
 
 if save_figure==True:
-    plt.savefig('sample_data_3D_injection_molding_final.pdf')
+    #plt.savefig('sample_data_3D_injection_molding_final.pdf')
+    plt.savefig('sample_data_3D_injection_molding_final.jpg',dpi=800)
 plt.show()
 

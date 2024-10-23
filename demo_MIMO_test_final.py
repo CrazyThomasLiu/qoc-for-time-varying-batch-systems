@@ -13,7 +13,7 @@ import pandas as pd
 import math
 # save the figure or not
 
-save_figure=False
+save_figure=True
 save_csv=False
 batch_length = 100
 batch_explore=25
@@ -207,16 +207,6 @@ print("SAE_Q_learning:",SAE_Q_learning)
 
 "7. plot the figures"
 plt.rcParams['pdf.fonttype'] = 42
-"""
-"set the global parameters"
-config = {
-    "font.family": 'sans-serif',
-    "font.serif": ['Arial'],
-    "font.size": 12,
-    "mathtext.fontset": 'stix',
-}
-plt.rcParams.update(config)
-"""
 fig1, ((ax0, ax1)) = plt.subplots(2, 1, sharex=True, constrained_layout=True,figsize=(9,6))
 "7.1 plot the output response"
 "output 1"
@@ -254,7 +244,8 @@ ax1.set_xlabel('Time:$t$',font)
 ax1.tick_params(labelsize=14)
 
 if save_figure==True:
-    plt.savefig('Q_learning_MIMO_output_final.pdf')
+    #plt.savefig('Q_learning_MIMO_output_final.pdf')
+    plt.savefig('Q_learning_MIMO_output_final.jpg',dpi=800)
 
 "7.2 plot the control signal"
 
@@ -279,7 +270,8 @@ ax3.set_ylabel('Control Signal:$u^{2}$',font)
 ax3.set_xlabel('Time:$t$',font)
 ax3.tick_params(labelsize=14)
 if save_figure==True:
-    plt.savefig('Q_learning_MIMO_control_signal_final.pdf')
+    #plt.savefig('Q_learning_MIMO_control_signal_final.pdf')
+    plt.savefig('Q_learning_MIMO_control_signal_final.jpg',dpi=800)
 
 plt.show()
 

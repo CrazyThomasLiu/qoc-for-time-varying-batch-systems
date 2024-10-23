@@ -283,7 +283,8 @@ ax1.tick_params(labelsize=14)
 
 
 if save_figure==True:
-    plt.savefig('Q_learning_injection_molding_final.pdf')
+    #plt.savefig('Q_learning_injection_molding_final.pdf')
+    plt.savefig('Q_learning_injection_molding_final.jpg',dpi=800)
 
 plt.show()
 
